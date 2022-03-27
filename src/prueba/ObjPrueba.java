@@ -1,3 +1,5 @@
+package prueba;
+
 public class ObjPrueba {
 
 	public ObjPrueba(){
