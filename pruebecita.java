@@ -1,1 +1,1 @@
-Que dise loco
+Que dise loco? que hay un conflicto?
