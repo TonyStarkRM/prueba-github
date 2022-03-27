@@ -1,1 +1,1 @@
-Esto será un fichero para mostrar los commits a revertir. Ya estária.
+Esto será un fichero para mostrar los commits a revertir. Modificamos esto.
