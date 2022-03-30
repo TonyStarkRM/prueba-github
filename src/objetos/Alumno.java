@@ -31,7 +31,7 @@ public class Alumno {
     }
 
     public Persona getPersona(){
-        return this.idAlumno;
+        return this.persona;
     }
 
     public void setPersona(Persona persona){
