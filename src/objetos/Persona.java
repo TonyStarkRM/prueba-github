@@ -9,6 +9,7 @@ public class Persona {
 	private String apellido2;
 	private String nacionalidad;
 	private String fechaNac;
+	private String direccion;
 	
 	
 	
@@ -18,16 +19,16 @@ public class Persona {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public Persona(long idPersona, String dni, String nombre, String apellido1, String apellido2, String nacionalidad,
-			String fechaNac) {
+	public Persona(String dni, String nombre, String apellido1, String apellido2, String nacionalidad,
+			String fechaNac, String direccion) {
 		super();
-		this.idPersona = idPersona;
 		this.dni = dni;
 		this.nombre = nombre;
 		this.apellido1 = apellido1;
 		this.apellido2 = apellido2;
 		this.nacionalidad = nacionalidad;
 		this.fechaNac = fechaNac;
+		this.direccion = direccion;
 	}
 	public long getIdPersona() {
 		return idPersona;
@@ -71,12 +72,20 @@ public class Persona {
 	public void setFechaNac(String fechaNac) {
 		this.fechaNac = fechaNac;
 	}
+	public String getDireccion() {
+		return direccion;
+	}
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+	
 	
 	
 	@Override
 	public String toString() {
 		return "Persona [idPersona=" + idPersona + ", dni=" + dni + ", nombre=" + nombre + ", apellido1=" + apellido1
-				+ ", apellido2=" + apellido2 + ", nacionalidad=" + nacionalidad + ", fechaNac=" + fechaNac + "]";
+				+ ", apellido2=" + apellido2 + ", nacionalidad=" + nacionalidad + ", fechaNac=" + fechaNac 
+				+ ", direccion=" + direccion + "]";
 	}
 	
 	
